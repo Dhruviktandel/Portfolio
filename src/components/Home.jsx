@@ -36,14 +36,14 @@ export default function Hero() {
 
   return (
     <section id="home" className="min-h-screen px-6 pt-32">
-      <div className="max-w-6xl mx-auto w-full flex flex-col md:flex-row items-center justify-between gap-10">
+      <div className="max-w-6xl mx-auto w-full flex flex-col items-center text-center">
         <div className="flex-1">
           {/* Available tag */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="flex items-center gap-2 mb-8 w-fit px-4 py-2 rounded-full border border-sky-500/30 bg-sky-500/10"
+            className="flex items-center gap-2 mb-8 w-fit px-4 py-2 rounded-full border border-sky-500/30 bg-sky-500/10 mx-auto"
           >
             {/* plushing dot */}
             <span className="relative flex h-2 w-2">
@@ -97,7 +97,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
-            className="text-white/60 text-lg max-w-xl mb-10 leading-relaxed"
+            className="text-white/60 text-lg max-w-xl mb-10 leading-relaxed mx-auto"
           >
             Crafting modern web experiences with React & Tailwind. Focused on
             clean code, smooth UI and pixel-perfect design
@@ -109,7 +109,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.9 }}
-            className="flex flex-wrap gap-4"
+            className="flex flex-wrap gap-4 justify-center"
           >
             <button
               onClick={() => scrolltoSection("#projects")}
