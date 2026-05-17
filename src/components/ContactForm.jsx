@@ -66,7 +66,7 @@ const ContactForm = () => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true, amount: 0.3 }}
-      className="flex-1 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm md:max-w-md mx-10"
+      className="flex-1 bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm"
     >
       {isSubmitted ? (
         <motion.div

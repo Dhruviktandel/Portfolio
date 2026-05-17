@@ -30,7 +30,7 @@ const ContactInfo = () => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true, amount: 0.3 }}
-      className="flex-1 flex flex-col md:max-w-md mx-10"
+      className="flex-1 flex flex-col"
     >
       {/* heading */}
       <div>
@@ -61,7 +61,7 @@ const ContactInfo = () => {
               </div>
               <div>
                 <p className="text-white/40 text-xs mb-1">{item.label}</p>
-                <p className="text-white text-sm font-medium">{item.value}</p>
+                <p className="text-white text-sm font-medium break-all">{item.value}</p>
               </div>
             </motion.div>
           );
