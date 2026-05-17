@@ -118,7 +118,7 @@ export default function Hero() {
               View Projects
             </button>
             <a
-              href="/TANDEL_DHRUVIK_v4.pdf"
+              href="/Tandel_Dhruvik.pdf"
               download="Dhruvik_CV.pdf"
               className="px-8 py-3 rounded-full border border-sky-500/50 text-sky-300 font-semibold hover:bg-sky-500/10 transition-all duration-300 hover:scale-105"
             >
